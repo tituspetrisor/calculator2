@@ -1,0 +1,32 @@
+package org.fasttrackit;
+
+public class Exercise {
+    public double x;
+    public double y;
+    public double result;
+
+    public double sumOfTwoNumbers(double x, double y){
+        double result = x + y;
+        System.out.println("The sum is: " + result);
+        return result;
+    }
+
+    public double devide(double x, double y){
+        double result = x / y;
+        System.out.println("The result is: " + result);
+        return result;
+    }
+    public double minus(double x, double y){
+        double result = x - y;
+        System.out.println("The result is: " + result);
+        return result;
+    }
+
+    public double average(double x, double y){
+        double result = (x + y) / 2;
+        System.out.println("The result is: " + result);
+        return result;
+    }
+
+
+}
