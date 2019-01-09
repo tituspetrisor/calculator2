@@ -10,6 +10,13 @@ public class App
         firstExercise.minus(7.25,10.5);
         firstExercise.average(15,17);
 
+        Exercise secondExrcise = new Exercise();
+        secondExrcise.sumOfTwoNumbers(1, 5);
+        secondExrcise.devide(9,2);
+        secondExrcise.minus(15,7);
+        secondExrcise.average(15,15);
+
+
 
     }
 }
